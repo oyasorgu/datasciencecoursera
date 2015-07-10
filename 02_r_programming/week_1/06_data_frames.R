@@ -14,3 +14,7 @@ dim(googleTrends)
 # Another way of creating data frames
 x <- data.frame(foo=1:4, bar=c(T, F, T, T))
 x
+names(x)
+sapply(x, class)
+
+rm(list = ls())
