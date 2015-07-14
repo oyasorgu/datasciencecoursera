@@ -42,8 +42,15 @@ class(x)
 # These are a special kind of vector that can contain elements of different classes
 y <- list(0.1, "car", TRUE, 5L, 1+0i)
 y
+class(y)
+class(y[[1]])
+class(y[[2]])
+class(y[[3]])
 
 # Multi-dimensinal list
 z <- list(c(1, 2, 3), c(T, F), c('a', 'b'), c(1+0i, 2+4i))
 z
 z[[4]][2] <- 'o'
+z[[2]][[2]]
+
+rm(list = ls())

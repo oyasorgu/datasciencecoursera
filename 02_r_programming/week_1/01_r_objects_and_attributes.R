@@ -18,6 +18,6 @@ hungry <- TRUE
 class(hungry)
 
 v <- 1+0i
-str(v)
+class(v)
 
 rm(list = ls())
