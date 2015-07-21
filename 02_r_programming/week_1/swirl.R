@@ -3,7 +3,7 @@ install.packages("swirl")
 library("swirl")
 swirl()
 
-Godfrey# Exit swirl and return to the R prompt (>) at any time by pressing the Esc key
+# Exit swirl and return to the R prompt (>) at any time by pressing the Esc key
 # If you are already at the prompt, type bye() to exit and save your progress.
 
 # When you are at the R prompt (>):
