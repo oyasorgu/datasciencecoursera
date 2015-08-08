@@ -10,6 +10,7 @@ googleTrends <- read.csv("C:\\Users\\Godfrey\\coursera\\datasciencecoursera\\02_
 
 # at work
 googleTrends <- read.csv("C:\\Users\\goyasor\\coursera\\datasciencecoursera\\02_r_programming\\data_files\\google_trends.csv", header = TRUE)
+
 head(googleTrends)
 
 class(googleTrends)

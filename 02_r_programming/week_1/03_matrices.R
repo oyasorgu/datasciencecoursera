@@ -15,7 +15,7 @@ class(m)
 m[1,3]
 
 # Data is inserted into matrices columnwise i.e. one column is filled then the next one
-n <- matrix(1:9, nrow = 3, ncol = 3)
+n <- matrix(data = 1:9, nrow = 3, ncol = 3)
 n
 
 # Matrices can also be created from vectors simply by adding a dimension attribute
